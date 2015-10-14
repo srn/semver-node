@@ -1,0 +1,25 @@
+{
+  "name": "semver-node",
+  "version": "1.0.0",
+  "description": "node semver range resolution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srn/sermver-node.git"
+  },
+  "keywords": [
+    "node",
+    "semver",
+    "range",
+    "resolution"
+  ],
+  "author": "Søren Brokær <root@srn.io> (http://srn.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srn/sermver-node/issues"
+  },
+  "homepage": "https://github.com/srn/sermver-node#readme"
+}
