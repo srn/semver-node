@@ -1,6 +1,6 @@
 {
   "name": "semver-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node semver range resolution",
   "main": "index.js",
   "scripts": {
