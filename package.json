@@ -4,7 +4,10 @@
   "description": "node semver range resolution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/srn/sermver-node/issues"
   },
-  "homepage": "https://github.com/srn/sermver-node#readme"
+  "homepage": "https://github.com/srn/sermver-node#readme",
+  "dependencies": {
+    "got": "5.2.0",
+    "semver": "5.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.7.0",
+    "nock": "3.3.2"
+  }
 }
