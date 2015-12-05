@@ -10,8 +10,6 @@ $ npm i -S semver-node
 
 ## Usage
 
-ES6/7
-
 ```js
 import semverNode, { resolve } from 'semver-node';
 
@@ -26,18 +24,6 @@ async function resolve() {
   resolve(versions, '>=0.8.5 <=0.8.14')
   // => 0.8.14
 }
-```
-
-ES5
-
-```js
-const semverNode = require('semver-node')
-
-semverNode().then(versions => console.log(versions.stable))
-// => 5.1.1
-
-semverNode().then(versions => semverNode.resolve(versions, '>=0.8.5 <=0.8.14'))
-// => 0.8.14
 ```
 
 See the [tests](test.js) for more examples.
